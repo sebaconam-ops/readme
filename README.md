@@ -71,13 +71,13 @@ También es posible descargar una copia del proyecto directamente desde GitHub.
 
 ## Instalación
 
-Una vez descargado o clonado el proyecto, instalar las dependencias:
+Una vez descargado o clonado el proyecto, instalar las dependencias(recuerda hacerlo desde el cmd o VScode):
 
 ```bash
 npm install
 ```
 
-Las dependencias utilizadas por la aplicación se encuentran definidas en:
+Las dependencias utilizadas por la aplicación se encuentran definidas en el archivo:
 
 ```text
 package.json
@@ -96,7 +96,7 @@ npm run start:dev
 Por defecto, la API estará disponible en:
 
 ```text
-http://localhost:3000
+http://localhost:3000/api
 ```
 
 ---
@@ -161,7 +161,7 @@ Permite:
 - Consultar el perfil público de un emprendedor.
 - Consultar los productos asociados a un emprendedor.
 
-La documentación detallada de las funcionalidades se encuentra disponible en la **Wiki del repositorio**.
+La documentación detallada de las funcionalidades se encuentra disponible en la **Wiki del repositorio**. https://github.com/bootcamp-uchile-2026/grupo-2-backend/wiki
 
 ---
 
@@ -291,36 +291,6 @@ docs: se actualiza documentación Swagger
 refactor: se reorganiza lógica de productos
 chore: se actualizan dependencias
 ```
-
----
-
-## Configuración local
-
-Actualmente el proyecto deberá incorporar variables de entorno únicamente cuando sean necesarias.
-
-Si posteriormente se utilizan variables de entorno, se deberá agregar un archivo:
-
-```text
-.env.example
-```
-
-como referencia para los integrantes del equipo.
-
-El archivo real:
-
-```text
-.env
-```
-
-no deberá almacenarse en GitHub cuando contenga información sensible.
-
-No se deberán publicar datos como:
-
-- Contraseñas.
-- Tokens.
-- Secretos.
-- Credenciales.
-- Claves privadas.
 
 ---
 
