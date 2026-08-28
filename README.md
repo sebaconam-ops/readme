@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://drive.google.com/file/d/10uSzFualz9I89UUehPdV6E7CJ81EpDZj/view?usp=sharing"
+    src="https://drive.google.com/thumbnail?id=10uSzFualz9I89UUehPdV6E7CJ81EpDZj&sz=w1000"
     alt="Logo BuenOrigen"
     width="280"
   >
